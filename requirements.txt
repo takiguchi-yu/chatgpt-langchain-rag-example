@@ -1,0 +1,11 @@
+faiss-cpu==1.7.4
+langchain==0.1.1
+langchain-community==0.0.13
+langchain-openai==0.0.3
+markdown==3.5.2
+openai==1.8.0
+python-dotenv==1.0.0
+streamlit==1.30.0
+tiktoken==0.5.2
+unstructured==0.12.2
+watchdog==3.0.0
