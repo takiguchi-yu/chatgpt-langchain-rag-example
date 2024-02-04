@@ -27,7 +27,7 @@ for dirpath, dirnames, filenames in os.walk(LOAD_DATA_DIR):
 # テキストの内容を分割する（ドキュメントのチャンク化）
 # -----------------------------------------------
 
-text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+text_splitter = CharacterTextSplitter(chunk_size=4000, chunk_overlap=0)
 docs = text_splitter.split_documents(docs)
 
 # print(docs[2])

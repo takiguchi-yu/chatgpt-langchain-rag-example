@@ -10,7 +10,7 @@
 
 ## アーキテクチャ
 
-TBD
+![](./docs/design.drawio.png)
 
 ## ChatGPT API 節約テクニック
 
